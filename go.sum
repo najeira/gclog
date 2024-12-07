@@ -5,8 +5,8 @@ github.com/blendle/zapdriver v1.3.1/go.mod h1:mdXfREi6u5MArG4j9fewC+FGnXaBR+T4Ox
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
-github.com/najeira/google_cloud_trace v1.0.1 h1:FZ9bKDAgsqwbgUXYw45gTh94DjapVOQEbKR1OsceZEM=
-github.com/najeira/google_cloud_trace v1.0.1/go.mod h1:oz+IPUpbpBPl1EfNoKV/TRf18xI0WfBM3QsJK+/De5M=
+github.com/najeira/gctrace v1.0.2 h1:+Hdm7asnHq4OLctiDQ+Gwot3TphfPK6hbMKmXk/BMGE=
+github.com/najeira/gctrace v1.0.2/go.mod h1:LlBHhOjWZoN/kK/xXbwOtFCceMjgH3NX5LznMZ7EGsg=
 github.com/pkg/errors v0.8.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=

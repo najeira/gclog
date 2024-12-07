@@ -1,10 +1,10 @@
-package google_cloud_log
+package gclog
 
 import (
 	"context"
 	"net/http"
 
-	"github.com/najeira/google_cloud_trace"
+	"github.com/najeira/gctrace"
 	"go.uber.org/zap"
 )
 
@@ -17,7 +17,7 @@ type (
 )
 
 func ContextWithTrace(r *http.Request) context.Context {
-	return ContextWithFields(r.Context(), google_cloud_trace.Fields(r)...)
+	return ContextWithFields(r.Context(), gctrace.Fields(r)...)
 }
 
 func ContextWithFields(ctx context.Context, fields ...zap.Field) context.Context {

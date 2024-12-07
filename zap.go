@@ -1,4 +1,4 @@
-package google_cloud_log
+package gclog
 
 import (
 	"github.com/blendle/zapdriver"

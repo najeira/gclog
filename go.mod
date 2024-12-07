@@ -1,10 +1,10 @@
-module github.com/najeira/google_cloud_log
+module github.com/najeira/gclog
 
 go 1.23.0
 
 require (
 	github.com/blendle/zapdriver v1.3.1
-	github.com/najeira/google_cloud_trace v1.0.1
+	github.com/najeira/gctrace v1.0.2
 	go.uber.org/zap v1.27.0
 )
 
