@@ -43,8 +43,8 @@ func Sync() error {
 	return logger.Sync()
 }
 
-func WithOptions(opts ...zap.Option) *zap.Logger {
-	return logger.WithOptions(opts...)
+func WithOptions(ctx context.Context, opts ...zap.Option) *zap.Logger {
+	return logger.With(fieldsFromContext(ctx)...).WithOptions(opts...)
 }
 
 func SetProduction(serviceName string) error {
