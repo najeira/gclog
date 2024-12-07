@@ -39,6 +39,14 @@ func Panic(ctx context.Context, msg string, fields ...zap.Field) {
 	logger.Panic(msg, fields...)
 }
 
+func Sync() error {
+	return logger.Sync()
+}
+
+func WithOptions(opts ...zap.Option) *zap.Logger {
+	return logger.WithOptions(opts...)
+}
+
 func SetProduction(serviceName string) error {
 	return setLogger(zapNewProduction(serviceName))
 }
